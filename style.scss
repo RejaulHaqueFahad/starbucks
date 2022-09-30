@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header{
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1),0 2px 2px rgba(0,0,0,.06),0 0 2px rgba(0,0,0,.07);
+
+    &__content{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        
+    }
+
+    &__left-content{
+        display: flex;
+        align-items: center;
+    }
+
+    &__logo-wrap{
+        position: absolute;
+        left: 140px;
+        width: 51px;
+        height: 51px;
+        cursor: pointer;
+    }
+
+    &__logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    &__menu-wrap{
+        display: flex;
+        gap: 15px;
+    }
+
+    &__menu{
+        font-size: 15px;
+        font-weight: 700;
+        color: #282828;
+        text-decoration: none;
+        letter-spacing: 1px;
+        
+        &:hover{
+            color: #00754a;
+        }
+    }
+
+    &__right-content{
+        display: flex;
+    }
+
+    &__map-wrap{
+        margin-right: 64px;
+        
+        &:hover{
+            color: #00754a;
+        }
+    }
+
+    &__icon{
+        display: flex;
+    }
+
+    &__map-icon{
+        width: 24px;
+        height: 24px;
+    }
+
+    &__map-link{
+        text-decoration: none;
+        text-align: center;
+        color: #282828;
+        font-size: 20px;
+        font-weight: 600;
+        
+        &:hover{
+            color: #00754a;
+        }  
+    }
+
+}
+display: inline-block;
+background: none;
+border-style: solid;
+border-width: 1px;
+border-radius: 50px;
+padding: 7px 16px;
+font-weight: 600;
+line-height: 1.2;
+text-align: center;
+text-decoration: none;
+transition: all .2s ease;
+
